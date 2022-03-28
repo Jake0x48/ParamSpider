@@ -26,7 +26,7 @@
 ```
 Note : Use python 3.7+
 
-$ git clone https://github.com/devanshbatham/ParamSpider
+$ git clone https://github.com/Jake0x48/ParamSpider
 $ cd ParamSpider
 $ pip3 install -r requirements.txt
 $ python3 paramspider.py --domain hackerone.com
@@ -44,15 +44,8 @@ $ python3 paramspider.py --domain hackerone.com
 2 - For excluding urls with specific extensions
 $ python3 paramspider.py --domain hackerone.com --exclude php,jpg,svg
 
-3 - For finding nested parameters
-$ python3 paramspider.py --domain hackerone.com --level high
--> Output ex : https://hackerone.com/test.php?p=test&q=FUZZ
-
 4 - Saving the results
 $ python3 paramspider.py --domain hackerone.com --exclude php,jpg --output hackerone.txt
-
-5 - Using with a custom placeholder text (default is FUZZ), e.g. don't add a placeholder
-$ python3 paramspider.py --domain hackerone.com --placeholder FUZZ2
 
 6 - Using the quiet mode (without printing the URLs on screen)
 $ python3 paramspider.py --domain hackerone.com --quiet
