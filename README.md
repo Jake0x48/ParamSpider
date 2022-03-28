@@ -63,5 +63,5 @@ $ python3 paramspider.py -d bugcrowd.com -e swf,gif,jpg,js,css,png,jpeg,woff,ttf
 
 ### support the riginal creator here:
 
-twitter: [0xAsm0d3us](https://twitter.com/0xAsm0d3us)
-donate: [Buy me a Coffee here](https://www.buymeacoffee.com/Asm0d3us)
+- twitter: [0xAsm0d3us](https://twitter.com/0xAsm0d3us)
+- donate: [Buy me a Coffee here](https://www.buymeacoffee.com/Asm0d3us)
