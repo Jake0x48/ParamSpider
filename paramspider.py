@@ -43,6 +43,9 @@ def main():
     logger.debug(f"ParamSpider v{version} by Devansh Batham (devanshbatham), forked by Jake0x48 <3")
     logger.debug("starting now :)")
 
+    if not os.path.isdir("output"):
+        os.mkdir("output")
+
     parser = argparse.ArgumentParser(
         description="ParamSpider a parameter discovery suite"
     )
