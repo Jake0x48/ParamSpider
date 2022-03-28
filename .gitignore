@@ -3,3 +3,4 @@ output
 test.py
 .gitattributes
 .idea
+.vscode
